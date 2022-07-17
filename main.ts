@@ -101,7 +101,7 @@ function predict(list5: number[]): number {
 //  every 0.1 sec: collect acceleration data, update     
 // serial.write_line(current_activity[len(current_activity)-1])
 // current_activity: List[string] = []
-for (let index = 0; index < 19; index++) {
+for (let index = 0; index < 20; index++) {
     rawX.push(input.acceleration(Dimension.X))
     rawY.push(input.acceleration(Dimension.Y))
     rawZ.push(input.acceleration(Dimension.Z))

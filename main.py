@@ -97,7 +97,7 @@ def on_forever():
 
 #current_activity: List[string] = []
 
-for index in range(19):
+for index in range(20):
     rawX.append(input.acceleration(Dimension.X))
     rawY.append(input.acceleration(Dimension.Y))
     rawZ.append(input.acceleration(Dimension.Z))
